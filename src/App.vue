@@ -1,0 +1,40 @@
+<template>
+  <div id="app">
+    <HeaderForm />
+    <Home />
+
+
+    
+  </div>
+</template>
+
+<script>
+import HeaderForm from './components/HeaderForm';
+import Home from './components/Home';
+
+
+
+export default {
+  name: 'app',
+  components: {
+    HeaderForm,
+    Home
+  },
+
+
+ 
+}
+</script>
+
+<style>
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 0px;
+}
+
+
+</style>
