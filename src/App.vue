@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <h1>Test</h1>
     <HeaderForm />
     <Home />
 
